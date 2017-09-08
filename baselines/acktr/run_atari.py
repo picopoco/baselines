@@ -1,4 +1,8 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("..")
+sys.path.append("../..")
+sys.path.append("../../..")
 import os, logging, gym
 from baselines import logger
 from baselines.common import set_global_seeds
